@@ -6,11 +6,11 @@ namespace ECommerce.Models
     {
         public User? User { get; set; }
 
-        public string? UserId { get; set; }
+        //public string? UserId { get; set; }
 
         public Product? Product { get; set; }
 
-        public int ProductId { get; set; }
+        //public Guid ProductId { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:N2}")]
         [Display(Name = "Cantidad")]

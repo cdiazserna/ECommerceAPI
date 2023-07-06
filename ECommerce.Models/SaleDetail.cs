@@ -6,7 +6,7 @@ namespace ECommerce.Models
     {
         public Sale? Sale { get; set; }
 
-        public int SaleId { get; set; }
+        //public Guid SaleId { get; set; }
 
         [DataType(DataType.MultilineText)]
         [Display(Name = "Comentarios")]
@@ -14,7 +14,7 @@ namespace ECommerce.Models
 
         public Product? Product { get; set; }
 
-        public int ProductId { get; set; }
+        //public Guid ProductId { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:N2}")]
         [Display(Name = "Cantidad")]
